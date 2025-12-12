@@ -5,7 +5,7 @@ Instructor: Hasan Arslan
 Student: Pravin Sanjay Satpute
 
 🚀 Google Colab Notebook (One-Click Access):
-👉 https://colab.research.google.com/drive/1Qo2gIOWt1qtlozcCYwLOGbUKvwcM81lr?usp=sharing
+👉https://colab.research.google.com/github/pravinsatpute21-hero/ISOM-835-Telco-Customer-Churn/blob/main/ISOM_835_Telco_Customer_Churn.ipynb
 
 📌 Project Overview
 
