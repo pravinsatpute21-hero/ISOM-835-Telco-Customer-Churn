@@ -1,115 +1,155 @@
-# ISOM 835 – Telco Customer Churn Prediction
-**Predictive Analytics & Machine Learning – Individual Term Project**  
-**Instructor:** Hasan Arslan  
-**Student:** Pravin Sanjay Satpute  
+ISOM 835 – Telco Customer Churn Prediction
 
----
+Predictive Analytics & Machine Learning – Individual Term Project
+Instructor: Hasan Arslan
+Student: Pravin Sanjay Satpute
 
-## 📌 Project Overview
-Customer churn is a critical challenge in the telecommunications industry, where retaining existing customers is significantly more cost-effective than acquiring new ones. This project applies a full predictive analytics and machine learning workflow to analyze customer behavior and predict churn using the **Telco Customer Churn dataset**.
+🚀 Google Colab Notebook (One-Click Access):
+👉 https://colab.research.google.com/drive/1Qo2gIOWt1qtlozcCYwLOGbUKvwcM81lr?usp=sharing
 
+📌 Project Overview
 
-The goal is to identify key factors influencing customer churn and provide actionable business insights that can help telecom companies improve customer retention strategies.
+Customer churn is a critical challenge in the telecommunications industry, where retaining existing customers is significantly more cost-effective than acquiring new ones. This project applies a complete predictive analytics and machine learning pipeline to analyze customer behavior and predict churn using the Telco Customer Churn dataset.
 
----
+The goal is to identify key factors influencing customer churn and convert analytical insights into actionable business recommendations that telecom companies can use to improve customer retention and profitability.
 
-## 🎯 Business Objectives
-- Predict whether a customer is likely to churn
-- Identify the most important factors driving churn
-- Compare multiple machine learning models
-- Translate model outputs into business-relevant recommendations
-- Address ethical and responsible AI considerations
+🎯 Business Objectives
 
----
+Predict whether a customer is likely to churn
 
-## 📊 Dataset Description
-- **Dataset:** Telco Customer Churn
-- **Source:** Kaggle / IBM Sample Dataset
-- **Observations:** 7,043 customers
-- **Features:** 21 customer attributes
-- **Target Variable:** `Churn` (Yes / No → 1 / 0)
+Identify the most influential factors driving churn
 
-The dataset includes customer demographics, service subscriptions, contract details, billing information, and churn status.
+Compare multiple machine learning models
 
----
+Translate technical results into business-oriented insights
 
-## 🛠️ Tools & Technologies
-- **Language:** Python 3
-- **Environment:** Google Colab
-- **Libraries:**
-  - pandas, numpy
-  - matplotlib, seaborn
-  - scikit-learn
-- **Version Control:** Git & GitHub
+Address ethical and responsible AI considerations
 
----
+📊 Dataset Description
 
-## 📁 Repository 
-SOM-835-Telco-Customer-Churn/
+Dataset Name: Telco Customer Churn
+
+Source: Kaggle / IBM Sample Dataset
+
+Observations: 7,043 customers
+
+Features: 21 customer attributes
+
+Target Variable: Churn (Yes / No → 1 / 0)
+
+The dataset includes:
+
+Customer demographics (gender, senior citizen status)
+
+Service subscriptions (internet type, streaming services)
+
+Contract and tenure information
+
+Billing and payment methods
+
+🛠️ Tools & Technologies
+
+Programming Language: Python 3
+
+Environment: Google Colab
+
+Libraries Used:
+
+pandas, numpy
+
+matplotlib, seaborn
+
+scikit-learn
+
+Version Control: Git & GitHub
+
+📁 Repository Structure
+ISOM-835-Telco-Customer-Churn/
 │
 ├── notebooks/
-│ ├── 01_EDA.ipynb
-│ ├── 02_Preprocessing.ipynb
-│ ├── 03_Modeling.ipynb
-│
-├── report/
-│ └── Satpute_Pravin_ISOM835_Project.pdf
+│   └── ISOM_835_Telco_Customer_Churn.ipynb
 │
 ├── data/
-│ └── Telco-Customer-Churn.csv
+│   └── Telco-Customer-Churn.csv
+│
+├── report/
+│   └── Satpute_Pravin_ISOM835_Project.pdf
 │
 └── README.md
 
+📘 Google Colab Notebook
 
----
+🔗 Direct Notebook Link:
+👉 [PASTE_COLAB_LINK_HERE](https://colab.research.google.com/drive/1Qo2gIOWt1qtlozcCYwLOGbUKvwcM81lr?usp=sharing)
 
-### 🔹 STEP 2: ADD NOTEBOOKS SECTION
+This project is implemented in one comprehensive Google Colab notebook, covering the full machine learning lifecycle:
 
-Paste **below the structure**:
+Exploratory Data Analysis (EDA)
 
-```markdown
-## 📘 Google Colab Notebooks
+Data cleaning and preprocessing
 
-- **01_EDA.ipynb**
-  - Exploratory Data Analysis
-  - Churn distribution
-  - Customer demographics and service usage patterns
-  - Key visual insights
+Feature engineering
 
-- **02_Preprocessing.ipynb**
-  - Data cleaning
-  - Encoding categorical variables
-  - Feature engineering
-  - Train-test split
+Model training:
 
-- **03_Modeling.ipynb**
-  - Logistic Regression
-  - Random Forest Classifier
-  - Model evaluation and comparison
-  - Confusion matrix, ROC-AUC, feature importance
-## ⚖️ Ethics & Responsible AI
+Logistic Regression
 
-This project considers ethical implications related to customer data usage and predictive modeling:
+Random Forest Classifier
 
-- Potential bias in customer demographics
-- Fairness across age, gender, and contract types
-- Risk of unfair targeting or exclusion
-- Importance of model transparency and explainability
+Model evaluation:
 
-The models are intended to **support decision-making**, not replace human judgment. Predictions should be used responsibly with customer-centric policies.
-## ▶️ How to Run This Project
+Confusion matrices
 
-1. Open the Google Colab notebooks from the `notebooks/` folder
-2. Upload the dataset when prompted
-3. Run notebooks in order:
-   - 01_EDA.ipynb
-   - 02_Preprocessing.ipynb
-   - 03_Modeling.ipynb
-## 🙏 Acknowledgments
+ROC curve & AUC
 
-- Dataset: IBM / Kaggle Telco Customer Churn Dataset
-- Course: ISOM 835 – Predictive Analytics & Machine Learning
-- Instructor: Professor Hasan Arslan
-- AI tools (ChatGPT) were used for learning support and debugging, with full understanding of all submitted code.
-Add main project README
+Performance comparison
 
+Business insights and recommendations
+
+📈 Key Analytical Insights
+
+Customer churn rate is approximately 27%, indicating a major retention challenge
+
+Customers on month-to-month contracts show significantly higher churn
+
+Short-tenure customers are the most likely to leave
+
+Customers with high monthly charges churn at higher rates
+
+Electronic check payment users exhibit the highest churn risk
+
+Senior citizens demonstrate elevated churn behavior, requiring targeted strategies
+
+⚖️ Ethics & Responsible AI
+
+This project considers ethical implications associated with predictive modeling:
+
+Potential bias related to age, contract type, and payment method
+
+Fairness considerations across demographic groups
+
+Privacy and responsible handling of customer data
+
+Risk of misuse of churn predictions for unfair targeting
+
+The model is intended to support business decisions, not replace human judgment. All predictions should be applied using ethical, customer-centric policies.
+
+▶️ How to Run This Project
+
+Click the Google Colab link above
+
+Upload the dataset (Telco-Customer-Churn.csv) when prompted
+
+Run all cells from top to bottom
+
+Review outputs, visualizations, and insights
+
+🙏 Acknowledgments
+
+Dataset: IBM / Kaggle – Telco Customer Churn
+
+Course: ISOM 835 – Predictive Analytics & Machine Learning
+
+Instructor: Professor Hasan Arslan
+
+AI assistance (ChatGPT) was used only for learning, structuring, and debugging support, with full understanding of all submitted work.
