@@ -80,7 +80,7 @@ ISOM-835-Telco-Customer-Churn/
 📘 Google Colab Notebook
 
 🔗 Direct Notebook Link:
-👉 [PASTE_COLAB_LINK_HERE](https://colab.research.google.com/drive/1Qo2gIOWt1qtlozcCYwLOGbUKvwcM81lr?usp=sharing)
+👉 (https://colab.research.google.com/github/pravinsatpute21-hero/ISOM-835-Telco-Customer-Churn/blob/main/ISOM_835_Telco_Customer_Churn.ipynb)
 
 This project is implemented in one comprehensive Google Colab notebook, covering the full machine learning lifecycle:
 
